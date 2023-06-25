@@ -1,14 +1,14 @@
 # Developer Quickstart
 
-In this tutorial we are going to build a simple chat app using XMTP and vuejs. We are going to be chatting to a bot for simplicity. The bot is going to be a simple echo bot that will reply with the same message we send.
+In this tutorial we are going to build a simple chat app using XMTP and [Nuxtjs](https://nuxt.com/). We are going to be chatting to a bot for simplicity. The bot is going to be a simple echo bot that will reply with the same message we send.
 
 ### Demo App
 
-[<div class="div-header-github-link"></div> xmtp-quickstart-vuejs](https://github.com/fabriguespe/xmtp-quickstart-vuejs)
+[<div class="div-header-github-link"></div> xmtp-quickstart-nuxtjs](https://github.com/fabriguespe/xmtp-quickstart-nuxtjs)
 
 ```bash
-git clone git@github.com:fabriguespe/xmtp-quickstart-vuejs.git
-cd xmtp-quickstart-vuejs
+git clone git@github.com:fabriguespe/xmtp-quickstart-nuxtjs.git
+cd xmtp-quickstart-nuxtjs
 npm install
 npm run dev
 ```
@@ -20,19 +20,7 @@ The first step involves creating and configuring the Next.js application.
 To generate a new Next.js app, execute the following command in your terminal:
 
 ```bash
- npm init vue@latest
-
-✔ Project name: … <your-project-name>
-✔ Add TypeScript? … `No` / Yes
-✔ Add JSX Support? … No / `Yes`
-✔ Add Vue Router for Single Page Application development? … `Nov / Yes
-✔ Add Pinia for state management? … `No` / Yes
-✔ Add Vitest for Unit testing? … `No` / Yes
-✔ Add an End-to-End Testing Solution? … `No` / Cypress / Playwright
-✔ Add ESLint for code quality? … `No` / Yes
-✔ Add Prettier for code formatting? … No / `Yes`
-
-Done.
+npx nuxi@latest init my-app
 ```
 
 ### Learning Objectives:
